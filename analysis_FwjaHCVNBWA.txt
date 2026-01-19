@@ -1,0 +1,30 @@
+URL: https://www.youtube.com/watch?v=FwjaHCVNBWA
+Title: Power BI for Data Analytics - Full Course for Beginners
+
+1. **Clickbait Verdict**: NO - The title accurately reflects the content: a comprehensive Power BI course for beginners.
+
+2. **Summary**: This video transcript outlines a full Power BI course designed for beginners, covering everything from basic visualization to advanced data modeling with DAX and Power Query. The course features real-world datasets, practical exercises, and portfolio projects. The instructor also offers supporter resources, including practice problems, course notes, and a certificate of completion.
+
+3. **Key Insights**:
+   - The course is structured into manageable 10-20 minute lessons with hands-on exercises and practice problems for effective learning.
+   - The course is divided into two main sections: fundamentals (data connection, report manipulation, basic charts) and advanced topics (Power Query, DAX, data modeling).
+   - Supporter resources are available as a way to fund the free content, which provides benefits such as progress tracking, guided practice problems, detailed lesson plans, and a certificate of completion.
+
+4. **Important Timestamps** (Approximate based on content flow):
+   - [0:00]: Introduction and Course Overview
+   - [1:50]: Instructor's Credentials and Experience
+   - [3:00]: Course Structure and Projects
+   - [4:30]: Supporter Resources Details
+   - [6:10]: Origin of PowerBI from Excel
+   - [11:30]: Power BI Ecosystem Explanation (Desktop vs. Service)
+   - [14:00]: Introduction to Microsoft Fabric
+   - [14:30]: Course Resources and How to Download
+   - [16:30]: Description of Datasets to be used
+   - [18:00]: Getting Help and Using Chatbots
+   - [19:30]: Chapter 1 Introduction: Grand Tour of Power BI
+   - [21:10]: Operating System Requirements
+   - [22:30]: Computer Requirements
+   - [23:30]: How to Install PowerBI
+   - [24:30]: Terminology Used in the Course and PowerBI
+   - [26:30]: Home Tab and Data Loading Demo
+
