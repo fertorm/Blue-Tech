@@ -1,0 +1,17 @@
+Registro de Archivos Eliminados
+Fecha: 2026-01-19 16:32
+
+Archivos eliminados en la limpieza reciente:
+- debug_transcript_obj.py
+- debug_yt.py
+- test_env.py
+- test_yt_methods.py
+- list_models.py
+- capturar datos web
+- analyze_pdf.py
+- analysis_output.txt
+
+Archivos temporales eliminados anteriormente:
+- reproduction_script.py
+- reproduction_script_v2.py
+- reproduction_script_v3.py
