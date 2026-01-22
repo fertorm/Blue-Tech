@@ -1,27 +1,21 @@
-# Blue Tech - Dependencias del Extractor de Planos
-
-# Extracción de texto de PDFs
+# Document Processing (PDFs & QR)
 pdfplumber>=0.10.0
-
-# Generación de códigos QR
 qrcode[pil]>=7.4.2
 Pillow>=10.0.0
+pymupdf>=1.23.0  # For inserting images/QRs into PDFs
 
-# OCR (Reconocimiento Óptico de Caracteres)
-pytesseract>=0.3.10
-pdf2image>=1.16.3
-
-# Manipulación de PDFs
-pymupdf>=1.23.0
-
-# Web Scraping y Análisis de Datos
+# Web Scraping & Data Analysis
 requests>=2.31.0
 beautifulsoup4>=4.12.0
 pandas>=2.1.0
 plotly>=5.18.0
-openpyxl>=3.1.0
+openpyxl>=3.1.0  # For Excel export
 
-# YouTube Analyzer Dependencies
+# YouTube & AI Analysis
 youtube-transcript-api>=0.6.1
 google-generativeai>=0.3.2
 python-dotenv>=1.0.0
+
+# Optional / OCR (Currently unused but previously requested)
+# pytesseract>=0.3.10
+# pdf2image>=1.16.3
