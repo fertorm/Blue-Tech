@@ -330,5 +330,6 @@ def scrapear_noticias():
 
 
 # Ejecución
-df_noticias = scrapear_noticias()
-df_noticias.to_csv("noticias_mundo.csv", index=False)
+if __name__ == "__main__":
+    df_noticias = scrapear_noticias()
+    df_noticias.to_csv("noticias_mundo.csv", index=False)

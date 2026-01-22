@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Tech | Servicios de Web Scraping en Bolivia</title>
+    <meta name="description"
+        content="Extracción de datos web profesional y APIs personalizadas en Bolivia. Obtén datos precisos de e-commerce, noticias y más.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-cube"></i> Blue<span>Tech</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio" class="active">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#tecnologia">Tecnología</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#contacto" class="btn btn-primary" style="display: none;">Cotizar</a>
+            <!-- Optional Header Button -->
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Datos precisos para decisiones <span class="highlight">inteligentes</span></h1>
+                    <p>Transformamos sitios web complejos en datos estructurados y APIs listas para usar. Servicios de
+                        web scraping profesional en Bolivia.</p>
+                    <div class="hero-buttons">
+                        <a href="#servicios" class="btn btn-primary">Ver Servicios</a>
+                        <a href="#contacto" class="btn btn-outline">Contáctanos</a>
+                    </div>
+                </div>
+
+                <div class="hero-image float">
+                    <div class="hero-card">
+                        <!-- Abstract Visual Representation of Scraping -->
+                        <div class="code-mockup">
+                            <span class="code-line"><span class="keyword">import</span> blue_tech_scraper <span
+                                    class="keyword">as</span> bt</span>
+                            <span class="code-line"></span>
+                            <span class="code-line"><span class="keyword">def</span> <span
+                                    class="function">extraer_datos</span>():</span>
+                            <span class="code-line">&nbsp;&nbsp;target = <span
+                                    class="string">"e-commerce-bolivia.com"</span></span>
+                            <span class="code-line">&nbsp;&nbsp;data = bt.<span
+                                    class="function">scrape</span>(target)</span>
+                            <span class="code-line">&nbsp;&nbsp;<span class="keyword">return</span>
+                                data.to_json()</span>
+                            <span class="code-line"></span>
+                            <span class="code-line"><span class="keyword">print</span>(<span class="string">"Extracción
+                                    completada: 100%"</span>)</span>
+                        </div>
+                        <div style="margin-top: 2rem; display: flex; gap: 1rem; align-items: center;">
+                            <div
+                                style="background: rgba(16, 185, 129, 0.2); color: #10b981; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-check-circle"></i> Datos Verificados
+                            </div>
+                            <div
+                                style="background: rgba(6, 182, 212, 0.2); color: #06b6d4; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">
+                                <i class="fas fa-bolt"></i> API Rápida
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicios" class="services">
+            <div class="container">
+                <h2 class="section-title">Nuestros Servicios</h2>
+                <p class="section-subtitle">Soluciones de extracción de datos diseñadas para escalar</p>
+
+                <div class="grid-3">
+                    <!-- Service 1 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-spider"></i></div>
+                        <h3>Web Scraping a Medida</h3>
+                        <p>Extraemos datos de cualquier sitio web, sin importar su complejidad. Obtén bases de datos
+                            limpias y estructuradas.</p>
+                        <a href="#contacto" class="card-link">Cotizar proyecto <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Monitoreo de Precios</h3>
+                        <p>Vigila a tu competencia en tiempo real. Recibe alertas de cambios de precios y stock en
+                            tiendas de Bolivia.</p>
+                        <a href="#contacto" class="card-link">Ver demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-robot"></i></div>
+                        <h3>Automatización</h3>
+                        <p>Automatiza tareas repetitivas en la web: llenado de formularios, descargas masivas y gestión
+                            de cuentas.</p>
+                        <a href="#contacto" class="card-link">Automatizar ahora <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="tecnologia" class="features">
+            <div class="container">
+                <div class="feature-list">
+                    <div class="feature-content">
+                        <h2>¿Por qué elegir <span style="color: var(--primary-color);">Blue Tech</span>?</h2>
+
+                        <div class="feature-item">
+                            <div class="feature-icon-small"><i class="fas fa-server"></i></div>
+                            <div class="feature-text">
+                                <h4>Infraestructura Robusta</h4>
+                                <p>Sistemas distribuidos que garantizan la extracción ininterrumpida de datos sin
+                                    bloqueos.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon-small"><i class="fas fa-file-csv"></i></div>
+                            <div class="feature-text">
+                                <h4>Formatos Flexibles</h4>
+                                <p>Entregamos la data como la necesitas: CSV, Excel, JSON, bases de datos SQL o vía API
+                                    REST.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-icon-small"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="feature-text">
+                                <h4>Expertos en el Mercado Boliviano</h4>
+                                <p>Conocemos las particularidades de los sitios locales. Facturación local y soporte en
+                                    español.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="feature-image">
+                        <!-- Abstract Tech Representation -->
+                        <div style="
+                            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(15, 23, 42, 0.5));
+                            border: 1px solid rgba(59, 130, 246, 0.3);
+                            border-radius: 20px;
+                            padding: 2rem;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                        ">
+                            <div style="color: var(--text-dim);">
+                                <i class="fas fa-database"
+                                    style="font-size: 5rem; color: var(--primary-color); margin-bottom: 1rem; display: block;"></i>
+                                <div style="font-family: monospace; font-size: 1.2rem;">
+                                    { "status": "success", "data_points": 15420 }
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-subtitle">¿Listo para obtener los datos que necesitas?</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/59170000000" target="_blank">+591 700 00 000</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email Directo</h4>
+                            <p><a href="mailto:info@bluetech.bo">info@bluetech.bo</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-item">
+                        <div class="contact-icon"><i class="fas fa-map-pin"></i></div>
+                        <div class="contact-text">
+                            <h4>Ubicación</h4>
+                            <p>Santa Cruz de la Sierra, Bolivia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nombre / Empresa</label>
+                            <input type="text" id="name" placeholder="Tu nombre" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Corporativo</label>
+                            <input type="email" id="email" placeholder="tu@empresa.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="service">Servicio de Interés</label>
+                            <select id="service">
+                                <option value="scraping">Web Scraping Personalizado</option>
+                                <option value="pricing">Monitoreo de Precios</option>
+                                <option value="automation">Automatización</option>
+                                <option value="other">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Detalles del Proyecto</label>
+                            <textarea id="message" placeholder="¿Qué datos necesitas extraer?"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Enviar Solicitud</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#" class="logo">
+                        <i class="fas fa-cube"></i> Blue<span>Tech</span>
+                    </a>
+                    <p>Expertos en extracción de datos y automatización web en Bolivia. Ayudamos a empresas a tomar
+                        decisiones basadas en datos.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#tecnologia">Tecnología</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legales</h4>
+                    <ul>
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos de Servicio</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copyright">
+                &copy; 2026 Blue Tech Bolivia. Todos los derechos reservados.
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
