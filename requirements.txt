@@ -7,6 +7,7 @@ pymupdf>=1.23.0  # For inserting images/QRs into PDFs
 # Web Scraping & Data Analysis
 requests>=2.31.0
 beautifulsoup4>=4.12.0
+numpy>=2.0.0
 pandas>=2.1.0
 plotly>=5.18.0
 matplotlib>=3.8.0
