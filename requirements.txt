@@ -1,28 +1,28 @@
 # Document Processing (PDFs & QR)
 pdfplumber>=0.10.0
 qrcode[pil]>=7.4.2
-Pillow>=10.0.0
 pymupdf>=1.23.0  # For inserting images/QRs into PDFs
+# pdf2image>=1.16.3 # Optional
 
 # Web Scraping & Data Analysis
-requests>=2.31.0
-beautifulsoup4>=4.12.0
-numpy>=2.0.0
-pandas>=2.1.0
+requests>=2.32.5
+beautifulsoup4>=4.14.3
+numpy>=2.4.1
+pandas>=2.3.3
 plotly>=5.18.0
 matplotlib>=3.8.0
-openpyxl>=3.1.0  # For Excel export
+openpyxl>=3.1.5  # For Excel export
+
+# Web Applications
 flask>=3.0.0
+streamlit>=1.40.0 # Updated for latest features/fixes
+altair>=5.0.0
 
-
-# Beam Analysis App
-streamlit>=1.30.0
-indeterminatebeam>=2.1.0
 # YouTube & AI Analysis
 youtube-transcript-api>=0.6.1
 google-generativeai>=0.3.2
 python-dotenv>=1.0.0
 
-# Optional / OCR (Currently unused but previously requested)
+# Legacy / Unused in current scan (Uncomment if needed)
+# indeterminatebeam>=2.1.0
 # pytesseract>=0.3.10
-# pdf2image>=1.16.3

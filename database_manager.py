@@ -18,7 +18,45 @@ class DatabaseManager:
             df_nuevos = pd.DataFrame(data_list)
 
             # Asegurar orden de columnas
-            cols_deseadas = ["Fuente", "Material", "Precio_BS", "Fecha_Consulta"]
+            cols_deseadas = [
+                "Fuente",
+                "Material",
+                "Precio",
+                "Moneda",
+                "Unidad",
+                "Precio_BS",
+                "Fecha_Consulta",
+            ]
+
+            # Normalizar datos de entrada
+            for idx, row in df_nuevos.iterrows():
+                # Backward compatibility for Precio_BS -> Precio + Moneda=BOB
+                if (
+                    "Precio_BS" in row
+                    and pd.notna(row["Precio_BS"])
+                    and ("Precio" not in row or pd.isna(row["Precio"]))
+                ):
+                    df_nuevos.at[idx, "Precio"] = row["Precio_BS"]
+                    if "Moneda" not in row or pd.isna(row["Moneda"]):
+                        df_nuevos.at[idx, "Moneda"] = "BOB"
+
+                # Forward compatibility: If we have Price but no Precio_BS, leave Precio_BS as NaN or 0?
+                # Let's leave it as is, visualisation tools might need updates.
+
+                # Map incoming fields to database schema
+                if "currency" in row:
+                    df_nuevos.at[idx, "Moneda"] = row["currency"]
+                if "unit" in row:
+                    df_nuevos.at[idx, "Unidad"] = row["unit"]
+                if "price" in row:
+                    df_nuevos.at[idx, "Precio"] = row["price"]
+                if "source" in row:
+                    df_nuevos.at[idx, "Fuente"] = row["source"]
+                if "material" in row:
+                    df_nuevos.at[idx, "Material"] = row["material"]
+                if "date" in row:
+                    df_nuevos.at[idx, "Fecha_Consulta"] = row["date"]
+
             # Rellenar si falta alguna
             for col in cols_deseadas:
                 if col not in df_nuevos.columns:

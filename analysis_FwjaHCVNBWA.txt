@@ -1,0 +1,26 @@
+URL: https://www.youtube.com/watch?v=FwjaHCVNBWA
+Title: Power BI for Data Analytics - Full Course for Beginners
+
+Okay, here's the analysis of the provided YouTube video transcript:
+
+1.  **Clickbait Verdict**: NO - The title accurately reflects the content, which is a full course tutorial on Power BI for beginners.
+
+2.  **Summary**: This video introduces a comprehensive Power BI course for beginners, covering everything from basic visualization to advanced data modeling with DAX and Power Query. The course includes real-world datasets, portfolio projects, and practice exercises. It also offers supporter resources with guided practice problems and course notes to enhance learning.
+
+3.  **Key Insights**:
+    *   The course aims to provide practical experience, moving beyond just watching by incorporating exercises and projects.
+    *   The course emphasizes open-source education, providing free access to all course materials while offering supporter resources for additional benefits.
+    *   The course explains PowerBI's history and motivation in context of earlier Microsoft tools like Excel.
+
+4.  **Important Timestamps** (Approximate based on content flow):
+    *   [0:00]: Introduction to the course and overview of topics to be covered.
+    *   [1:50]: Explanation of the course projects and how to share them.
+    *   [2:30]: Explanation of the free and supporter resources.
+    *   [5:00]: Origin of PowerBI from Excel and historical context
+    *   [9:30]: Explanation of PowerBI Desktop and PowerBI Service.
+    *   [13:30]: Walkthrough of course resources and downloadable files.
+    *   [15:50]: Description of the data to be analyzed in the course.
+    *   [17:40]: How to get help with the course.
+    *   [18:40]: Installation of PowerBI and explanation of the UI.
+    *   [20:30]: Operating system requirements for PowerBI.
+    *   [23:00]: Ribbon, views, panes and canvas
