@@ -1,119 +1,119 @@
 country,material,price,currency,unit,source,date,source_url,extraction_date
-Bolivia,Acero,13920.0,BOB,ton,Estimado (Mercado Local),2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Bolivia,Cemento,50.0,BOB,bolsa (50kg),Cadecocruz/Mercado,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Bolivia,Arena,250.0,BOB,m3,Reportes Locales,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Bolivia,Ladrillo,1.5,BOB,unidad,Promedio Local,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-USA,Acero,983.0,USD,ton,SteelBenchmarker,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-USA,Concreto,150.0,USD,m3,Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-USA,Madera,600.0,USD,1000 bd ft,TradingEconomics Approx,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-China,Acero,3130.0,CNY,ton,Shanghai Futures,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-China,Concreto,400.0,CNY,m3,Estimate,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Brasil,Acero,4000.0,BRL,ton,Estimativa Mercado,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Brasil,Cimento,35.0,BRL,saco (50kg),Varejo,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Argentina,Cemento,9000.0,ARS,bolsa (50kg),Estimado Local,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Argentina,Acero,1200000.0,ARS,ton,Estimado Local,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Rusia,Acero,45000.0,RUB,ton,Estimate,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-India,Acero,45000.0,INR,ton,Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-India,Cemento,350.0,INR,bag (50kg),Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-26 14:11:38
-Kazakhstan,Apartamento (m2 Centro),1339.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Portugal,Apartamento (m2 Centro),4151.14,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Greece,Apartamento (m2 Centro),3243.38,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Latvia,Apartamento (m2 Centro),3028.88,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Iran,Apartamento (m2 Centro),1067.52,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Morocco,Apartamento (m2 Centro),1619.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Panama,Apartamento (m2 Centro),2962.93,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Iraq,Apartamento (m2 Centro),1525.26,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Chile,Apartamento (m2 Centro),2375.31,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Nepal,Apartamento (m2 Centro),2289.16,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Argentina,Apartamento (m2 Centro),2199.09,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Ukraine,Apartamento (m2 Centro),1461.02,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Bahrain,Apartamento (m2 Centro),2642.57,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-India,Apartamento (m2 Centro),1291.91,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Canada,Apartamento (m2 Centro),4982.72,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Turkey,Apartamento (m2 Centro),1830.1,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Belgium,Apartamento (m2 Centro),4480.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Finland,Apartamento (m2 Centro),5645.39,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Taiwan,Apartamento (m2 Centro),10498.62,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-North Macedonia,Apartamento (m2 Centro),1974.36,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-South Africa,Apartamento (m2 Centro),1162.7,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Georgia,Apartamento (m2 Centro),1640.13,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Peru,Apartamento (m2 Centro),2200.75,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Germany,Apartamento (m2 Centro),6445.02,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Puerto Rico,Apartamento (m2 Centro),5118.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-United States,Apartamento (m2 Centro),3335.32,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Thailand,Apartamento (m2 Centro),4123.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Libya,Apartamento (m2 Centro),582.51,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Costa Rica,Apartamento (m2 Centro),2351.82,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Sweden,Apartamento (m2 Centro),6583.11,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Vietnam,Apartamento (m2 Centro),3422.93,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Poland,Apartamento (m2 Centro),4045.12,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Bulgaria,Apartamento (m2 Centro),2460.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Jordan,Apartamento (m2 Centro),1296.6,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Kuwait,Apartamento (m2 Centro),5341.21,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Nigeria,Apartamento (m2 Centro),2672.54,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Tunisia,Apartamento (m2 Centro),1080.37,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Croatia,Apartamento (m2 Centro),4760.01,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Sri Lanka,Apartamento (m2 Centro),3638.03,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Uruguay,Apartamento (m2 Centro),3490.19,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-United Kingdom,Apartamento (m2 Centro),6008.48,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-United Arab Emirates,Apartamento (m2 Centro),5877.87,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Kenya,Apartamento (m2 Centro),1457.72,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Switzerland,Apartamento (m2 Centro),19135.97,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Spain,Apartamento (m2 Centro),4506.29,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Lebanon,Apartamento (m2 Centro),2674.57,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Azerbaijan,Apartamento (m2 Centro),2098.15,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Cuba,Apartamento (m2 Centro),373.76,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Venezuela,Apartamento (m2 Centro),783.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Czech Republic,Apartamento (m2 Centro),5572.3,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Israel,Apartamento (m2 Centro),9929.29,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Australia,Apartamento (m2 Centro),7488.29,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Estonia,Apartamento (m2 Centro),4414.81,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Hong Kong (China),Apartamento (m2 Centro),25076.98,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Cyprus,Apartamento (m2 Centro),3918.9,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Malaysia,Apartamento (m2 Centro),2163.45,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Oman,Apartamento (m2 Centro),2178.04,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Bosnia And Herzegovina,Apartamento (m2 Centro),2539.45,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Armenia,Apartamento (m2 Centro),3277.49,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Austria,Apartamento (m2 Centro),7316.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-South Korea,Apartamento (m2 Centro),13921.84,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Luxembourg,Apartamento (m2 Centro),11521.92,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Brazil,Apartamento (m2 Centro),1807.0,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Algeria,Apartamento (m2 Centro),1234.7,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Slovenia,Apartamento (m2 Centro),5014.5,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Colombia,Apartamento (m2 Centro),1993.18,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Ecuador,Apartamento (m2 Centro),1536.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Kosovo (Disputed Territory),Apartamento (m2 Centro),2090.16,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Hungary,Apartamento (m2 Centro),3905.64,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Japan,Apartamento (m2 Centro),6024.97,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Moldova,Apartamento (m2 Centro),2632.05,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Belarus,Apartamento (m2 Centro),1775.11,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Mauritius,Apartamento (m2 Centro),3875.46,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Albania,Apartamento (m2 Centro),2831.61,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-New Zealand,Apartamento (m2 Centro),5571.8,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Italy,Apartamento (m2 Centro),4041.04,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Singapore,Apartamento (m2 Centro),23746.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Egypt,Apartamento (m2 Centro),811.83,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Bolivia,Apartamento (m2 Centro),1264.5,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Malta,Apartamento (m2 Centro),4502.57,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Russia,Apartamento (m2 Centro),2628.09,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Saudi Arabia,Apartamento (m2 Centro),2295.62,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Netherlands,Apartamento (m2 Centro),6972.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Pakistan,Apartamento (m2 Centro),880.68,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-China,Apartamento (m2 Centro),5292.74,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Ireland,Apartamento (m2 Centro),5496.26,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Qatar,Apartamento (m2 Centro),5067.2,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Slovakia,Apartamento (m2 Centro),4058.51,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-France,Apartamento (m2 Centro),5974.66,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Lithuania,Apartamento (m2 Centro),4081.8,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Serbia,Apartamento (m2 Centro),3350.78,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Romania,Apartamento (m2 Centro),2694.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Philippines,Apartamento (m2 Centro),2942.51,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Uzbekistan,Apartamento (m2 Centro),1773.38,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Bangladesh,Apartamento (m2 Centro),886.08,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Norway,Apartamento (m2 Centro),7340.74,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Denmark,Apartamento (m2 Centro),6106.19,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Dominican Republic,Apartamento (m2 Centro),2231.6,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Mexico,Apartamento (m2 Centro),2721.96,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Zimbabwe,Apartamento (m2 Centro),849.79,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Montenegro,Apartamento (m2 Centro),3105.52,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
-Indonesia,Apartamento (m2 Centro),1735.84,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-26 14:11:38
+Argentina,Acero,1200000.0,ARS,ton,Estimado Local,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Bolivia,Acero,13920.0,BOB,ton,Estimado (Mercado Local),2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Brasil,Acero,4000.0,BRL,ton,Estimativa Mercado,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+China,Acero,3130.0,CNY,ton,Shanghai Futures,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+India,Acero,45000.0,INR,ton,Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Rusia,Acero,45000.0,RUB,ton,Estimate,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+USA,Acero,983.0,USD,ton,SteelBenchmarker,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Albania,Apartamento (m2 Centro),2837.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Algeria,Apartamento (m2 Centro),1233.08,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Argentina,Apartamento (m2 Centro),2199.09,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Armenia,Apartamento (m2 Centro),3261.48,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Australia,Apartamento (m2 Centro),7472.46,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Austria,Apartamento (m2 Centro),7310.56,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Azerbaijan,Apartamento (m2 Centro),2098.15,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bahrain,Apartamento (m2 Centro),2603.95,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bangladesh,Apartamento (m2 Centro),880.7,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Belarus,Apartamento (m2 Centro),1767.44,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Belgium,Apartamento (m2 Centro),4474.77,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bolivia,Apartamento (m2 Centro),1260.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bosnia And Herzegovina,Apartamento (m2 Centro),2548.79,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Brazil,Apartamento (m2 Centro),1809.98,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bulgaria,Apartamento (m2 Centro),2478.36,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Canada,Apartamento (m2 Centro),4956.44,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Chile,Apartamento (m2 Centro),2383.67,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+China,Apartamento (m2 Centro),5304.4,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Colombia,Apartamento (m2 Centro),1949.28,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Costa Rica,Apartamento (m2 Centro),2348.96,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Croatia,Apartamento (m2 Centro),4753.79,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Cuba,Apartamento (m2 Centro),373.76,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Cyprus,Apartamento (m2 Centro),3913.78,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Czech Republic,Apartamento (m2 Centro),5576.49,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Denmark,Apartamento (m2 Centro),6098.77,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Dominican Republic,Apartamento (m2 Centro),2232.23,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Ecuador,Apartamento (m2 Centro),1536.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Egypt,Apartamento (m2 Centro),808.04,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Estonia,Apartamento (m2 Centro),4409.04,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Finland,Apartamento (m2 Centro),5638.02,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+France,Apartamento (m2 Centro),5966.85,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Georgia,Apartamento (m2 Centro),1640.99,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Germany,Apartamento (m2 Centro),6457.96,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Greece,Apartamento (m2 Centro),3232.82,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Hong Kong (China),Apartamento (m2 Centro),25070.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Hungary,Apartamento (m2 Centro),3905.03,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+India,Apartamento (m2 Centro),1288.76,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Indonesia,Apartamento (m2 Centro),1739.28,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Iran,Apartamento (m2 Centro),1067.52,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Iraq,Apartamento (m2 Centro),1515.69,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Ireland,Apartamento (m2 Centro),5489.07,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Israel,Apartamento (m2 Centro),9973.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Italy,Apartamento (m2 Centro),4038.47,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Japan,Apartamento (m2 Centro),6116.09,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Jordan,Apartamento (m2 Centro),1296.6,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Kazakhstan,Apartamento (m2 Centro),1334.64,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Kenya,Apartamento (m2 Centro),1445.32,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Kosovo (Disputed Territory),Apartamento (m2 Centro),2054.43,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Kuwait,Apartamento (m2 Centro),5322.45,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Latvia,Apartamento (m2 Centro),3024.92,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Lebanon,Apartamento (m2 Centro),2674.57,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Libya,Apartamento (m2 Centro),583.44,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Lithuania,Apartamento (m2 Centro),4076.46,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Luxembourg,Apartamento (m2 Centro),11506.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Malaysia,Apartamento (m2 Centro),2191.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Malta,Apartamento (m2 Centro),4496.69,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Mauritius,Apartamento (m2 Centro),3908.67,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Mexico,Apartamento (m2 Centro),2730.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Moldova,Apartamento (m2 Centro),2636.6,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Montenegro,Apartamento (m2 Centro),3101.46,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Morocco,Apartamento (m2 Centro),1622.67,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Nepal,Apartamento (m2 Centro),2298.96,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Netherlands,Apartamento (m2 Centro),6955.54,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+New Zealand,Apartamento (m2 Centro),5575.53,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Nigeria,Apartamento (m2 Centro),2672.54,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+North Macedonia,Apartamento (m2 Centro),1978.62,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Norway,Apartamento (m2 Centro),7295.82,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Oman,Apartamento (m2 Centro),2176.31,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Pakistan,Apartamento (m2 Centro),874.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Panama,Apartamento (m2 Centro),2962.93,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Peru,Apartamento (m2 Centro),2189.69,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Philippines,Apartamento (m2 Centro),2939.27,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Poland,Apartamento (m2 Centro),4041.19,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Portugal,Apartamento (m2 Centro),4145.71,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Puerto Rico,Apartamento (m2 Centro),5118.86,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Qatar,Apartamento (m2 Centro),5034.42,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Romania,Apartamento (m2 Centro),2698.44,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Russia,Apartamento (m2 Centro),2570.4,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Saudi Arabia,Apartamento (m2 Centro),2294.24,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Serbia,Apartamento (m2 Centro),3353.32,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Singapore,Apartamento (m2 Centro),23778.72,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Slovakia,Apartamento (m2 Centro),4053.21,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Slovenia,Apartamento (m2 Centro),5007.95,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+South Africa,Apartamento (m2 Centro),1166.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+South Korea,Apartamento (m2 Centro),13932.29,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Spain,Apartamento (m2 Centro),4494.34,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Sri Lanka,Apartamento (m2 Centro),3619.26,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Sweden,Apartamento (m2 Centro),6545.38,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Switzerland,Apartamento (m2 Centro),19077.08,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Taiwan,Apartamento (m2 Centro),10320.01,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Thailand,Apartamento (m2 Centro),4080.66,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Tunisia,Apartamento (m2 Centro),1081.26,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Turkey,Apartamento (m2 Centro),1830.07,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Ukraine,Apartamento (m2 Centro),1452.43,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+United Arab Emirates,Apartamento (m2 Centro),5877.87,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+United Kingdom,Apartamento (m2 Centro),6003.28,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+United States,Apartamento (m2 Centro),3333.89,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Uruguay,Apartamento (m2 Centro),3492.25,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Uzbekistan,Apartamento (m2 Centro),1764.64,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Venezuela,Apartamento (m2 Centro),783.63,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Vietnam,Apartamento (m2 Centro),3436.16,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Zimbabwe,Apartamento (m2 Centro),849.79,USD,m2,Numbeo (Global),2025-Now,https://www.numbeo.com/cost-of-living/prices_by_country.jsp?displayCurrency=USD&itemId=100,2026-01-27 14:07:40
+Bolivia,Arena,250.0,BOB,m3,Reportes Locales,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Argentina,Cemento,9000.0,ARS,bolsa (50kg),Estimado Local,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Bolivia,Cemento,50.0,BOB,bolsa (50kg),Cadecocruz/Mercado,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+India,Cemento,350.0,INR,bag (50kg),Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Brasil,Cimento,35.0,BRL,saco (50kg),Varejo,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+China,Concreto,400.0,CNY,m3,Estimate,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+USA,Concreto,150.0,USD,m3,Market Estimate,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+Bolivia,Ladrillo,1.5,BOB,unidad,Promedio Local,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40
+USA,Madera,600.0,USD,1000 bd ft,TradingEconomics Approx,2024-2025 (Ref),Static Seed Data,2026-01-27 14:07:40

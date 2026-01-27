@@ -4,7 +4,9 @@ import os
 
 class DatabaseManager:
     def __init__(
-        self, filename="Base_Datos_BlueTech.xlsx", csv_filename="precios_escolares.csv"
+        self,
+        filename="data/Base_Datos_BlueTech.xlsx",
+        csv_filename="data/precios_escolares.csv",
     ):
         self.filename = filename
         self.csv_filename = csv_filename

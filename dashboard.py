@@ -11,7 +11,7 @@ st.markdown("Análisis de costos de materiales de construcción y escolares.")
 
 # Cargar datos
 try:
-    df = pd.read_excel("Base_Datos_BlueTech.xlsx")
+    df = pd.read_excel("data/Base_Datos_BlueTech.xlsx")
 
     # Pre-procesamiento básico
     if "Fecha_Consulta" in df.columns:

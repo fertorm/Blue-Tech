@@ -192,7 +192,7 @@ def generar_mapa(df):
 
 
 if __name__ == "__main__":
-    csv_path = "noticias_mundo.csv"
+    csv_path = "data/noticias_mundo.csv"
 
     if os.path.exists(csv_path):
         print(f"Cargando datos de {csv_path}...")

@@ -1,28 +1,45 @@
-# Document Processing (PDFs & QR)
-pdfplumber>=0.10.0
-qrcode[pil]>=7.4.2
-pymupdf>=1.23.0  # For inserting images/QRs into PDFs
-# pdf2image>=1.16.3 # Optional
+# Blue Tech - Construction Materials Price Tracker
+# Requirements File
+# Generated: January 2026
 
-# Web Scraping & Data Analysis
-requests>=2.32.5
-beautifulsoup4>=4.14.3
-numpy>=2.4.1
-pandas>=2.3.3
+# Core Dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+selenium>=4.15.0  # Si se necesita scraping dinámico
+
+# Dashboard & Visualization
+streamlit>=1.30.0
 plotly>=5.18.0
-matplotlib>=3.8.0
-openpyxl>=3.1.5  # For Excel export
+altair>=5.0.0  # Alternativa de visualización
 
-# Web Applications
-flask>=3.0.0
-streamlit>=1.40.0 # Updated for latest features/fixes
-altair>=5.0.0
+# Data Processing
+openpyxl>=3.1.0  # Para Excel
+python-dateutil>=2.8.2
 
-# YouTube & AI Analysis
-youtube-transcript-api>=0.6.1
-google-generativeai>=0.3.2
+# Configuration Management
 python-dotenv>=1.0.0
+pyyaml>=6.0
 
-# Legacy / Unused in current scan (Uncomment if needed)
-# indeterminatebeam>=2.1.0
-# pytesseract>=0.3.10
+# Testing (Opcional pero recomendado)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Code Quality (Opcional)
+black>=23.0.0
+flake8>=6.0.0
+pylint>=3.0.0
+
+# Logging & Monitoring
+colorlog>=6.7.0  # Logs con colores
+
+# HTTP & API
+urllib3>=2.0.0
+
+# Utilidades
+tqdm>=4.66.0  # Progress bars
+tabulate>=0.9.0  # Pretty print tables

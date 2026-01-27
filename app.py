@@ -14,7 +14,7 @@ def run_news_scraper():
         print("Iniciando scraping de noticias...")
         df = scrapear_noticias()
         # Ensure directory exists
-        df.to_csv("noticias_mundo.csv", index=False)
+        df.to_csv("data/noticias_mundo.csv", index=False)
         return {
             "status": "success",
             "message": f"Se obtuvieron {len(df)} noticias.",
