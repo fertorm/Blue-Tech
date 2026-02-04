@@ -332,4 +332,6 @@ def scrapear_noticias():
 # Ejecución
 if __name__ == "__main__":
     df_noticias = scrapear_noticias()
-    df_noticias.to_csv("noticias_mundo.csv", index=False)
+    # Asegurar que el directorio data exista
+    os.makedirs("data", exist_ok=True)
+    df_noticias.to_csv("data/noticias_mundo.csv", index=False)

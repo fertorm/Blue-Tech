@@ -1,0 +1,84 @@
+2026-02-03 10:40:31,"Falla en búsqueda de 'Ingeniería Civil': Message: element not interactable
+  (Session info: chrome=144.0.7559.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1288543
+	0x1288584
+	0x107b31e
+	0x10c04ff
+	0x10bf2f4
+	0x10e821c
+	0x10baf64
+	0x10e83e4
+	0x11053a1
+	0x10e7fb6
+	0x10b96f9
+	0x10ba4b4
+	0x14dd034
+	0x14d82c9
+	0x14f6460
+	0x12a1a68
+	0x12a988d
+	0x1290df8
+	0x1290fc2
+	0x127ab3a
+	0x76a65d49
+	0x77e4d5db
+	0x77e4d561
+"
+2026-02-03 10:47:29,"Falla en búsqueda de 'Ingeniería Civil': Message: element not interactable
+  (Session info: chrome=144.0.7559.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1288543
+	0x1288584
+	0x107b31e
+	0x10c04ff
+	0x10bf2f4
+	0x10e821c
+	0x10baf64
+	0x10e83e4
+	0x11053a1
+	0x10e7fb6
+	0x10b96f9
+	0x10ba4b4
+	0x14dd034
+	0x14d82c9
+	0x14f6460
+	0x12a1a68
+	0x12a988d
+	0x1290df8
+	0x1290fc2
+	0x127ab3a
+	0x76a65d49
+	0x77e4d5db
+	0x77e4d561
+"
+2026-02-03 10:49:21,"Falla Crítica: Message: element not interactable
+  (Session info: chrome=144.0.7559.110); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x1288543
+	0x1288584
+	0x107b31e
+	0x10c04ff
+	0x10bf2f4
+	0x10e821c
+	0x10baf64
+	0x10e83e4
+	0x11053a1
+	0x10e7fb6
+	0x10b96f9
+	0x10ba4b4
+	0x14dd034
+	0x14d82c9
+	0x14f6460
+	0x12a1a68
+	0x12a988d
+	0x1290df8
+	0x1290fc2
+	0x127ab3a
+	0x76a65d49
+	0x77e4d5db
+	0x77e4d561
+"

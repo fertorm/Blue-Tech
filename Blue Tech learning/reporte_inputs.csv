@@ -1,0 +1,11 @@
+Nombre,ID,Clase
+,vector-main-menu-dropdown-checkbox,['vector-dropdown-checkbox']
+search,searchInput,"['cdx-text-input__input', 'mw-searchInput']"
+title,,
+,vector-appearance-dropdown-checkbox,['vector-dropdown-checkbox']
+,vector-user-links-dropdown-checkbox,['vector-dropdown-checkbox']
+,vector-variants-dropdown-checkbox,['vector-dropdown-checkbox']
+,vector-page-tools-dropdown-checkbox,['vector-dropdown-checkbox']
+,p-lang-btn-checkbox,"['vector-dropdown-checkbox', 'mw-interlanguage-selector']"
+search,,"['cdx-text-input__input', 'mw-searchInput']"
+title,,

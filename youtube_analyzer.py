@@ -185,11 +185,13 @@ def main():
     print(analysis)
 
     # Save report
-    with open(f"analysis_{video_id}.txt", "w", encoding="utf-8") as f:
+    os.makedirs("data", exist_ok=True)
+    output_filename = os.path.join("data", f"analysis_{video_id}.txt")
+    with open(output_filename, "w", encoding="utf-8") as f:
         f.write(f"URL: {url}\n")
         f.write(f"Title: {title}\n\n")
         f.write(analysis)
-    print(f"\nReport saved to: analysis_{video_id}.txt")
+    print(f"\nReport saved to: {output_filename}")
 
 
 if __name__ == "__main__":
