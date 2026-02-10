@@ -11,7 +11,14 @@ df = pd.read_csv("master_data_grout.csv")
 # 2. GENERACIÓN DE GRÁFICAS PARA EL REPORTE
 # Gráfica 1: Distribución por Edad
 plt.figure(figsize=(8, 5))
-sns.boxplot(x="Edad_Dias", y="Resistencia_MPa", data=df, palette="Blues")
+sns.boxplot(
+    x="Edad_Dias",
+    y="Resistencia_MPa",
+    hue="Edad_Dias",
+    data=df,
+    palette="Blues",
+    legend=False,
+)
 plt.axhline(110, color="red", linestyle="--", label="Meta Sika (110 MPa)")
 plt.title("Distribución de Resistencia - Proyecto Blue Tech")
 plt.savefig("plot_distribucion.png")

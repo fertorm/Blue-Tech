@@ -84,7 +84,14 @@ print("\n" + "=" * 80)
 master_df.to_csv("master_data_grout.csv", index=False)
 
 plt.figure(figsize=(10, 6))
-sns.boxplot(x="Edad_Dias", y="Resistencia_MPa", data=master_df, palette="viridis")
+sns.boxplot(
+    x="Edad_Dias",
+    y="Resistencia_MPa",
+    hue="Edad_Dias",
+    data=master_df,
+    palette="viridis",
+    legend=False,
+)
 plt.title("Distribución de Resistencia SikaGrout 9400")
 plt.savefig("boxplot_resistencia.png")
 
