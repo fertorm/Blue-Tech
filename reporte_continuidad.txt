@@ -1,0 +1,10 @@
+==================================================
+ANALISIS DE CONTINUIDAD NORMALIZADO
+==================================================
+ Niveles Elemento        Estado Error_Relativo
+17 -> 18      F35    ✅ CONTINUO            0.0
+17 -> 18  COLUMNS ❌ DISCONTINUO              -
+18 -> 19     POST ❌ DISCONTINUO              -
+18 -> 19     POST ❌ DISCONTINUO              -
+18 -> 19     POST ❌ DISCONTINUO              -
+18 -> 19  COLUMNS ❌ DISCONTINUO              -
