@@ -12,7 +12,8 @@ import numpy as np
 import os
 
 # --- Configuración ---
-DATA_FILE = r"c:\Users\Usuario\Documents\Blue Tech\Grout Stats\master_data_grout.csv"
+# --- Configuración ---
+DATA_FILE = r"c:\Users\Usuario\Documents\Blue Tech\master_data_grout.csv"
 OUTPUT_DIR = os.path.dirname(DATA_FILE)
 
 

@@ -7,9 +7,7 @@ import textwrap
 # 1. Carga de Datos Reales
 # Leemos el CSV con los datos maestros
 try:
-    df = pd.read_csv(
-        r"c:\Users\Usuario\Documents\Blue Tech\Grout Stats\master_data_grout.csv"
-    )
+    df = pd.read_csv(r"c:\Users\Usuario\Documents\Blue Tech\master_data_grout.csv")
 except FileNotFoundError:
     print(
         "Error: No se encontró el archivo 'master_data_grout.csv'. Asegúrate de que la ruta sea correcta."
