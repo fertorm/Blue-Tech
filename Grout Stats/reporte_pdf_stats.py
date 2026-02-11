@@ -6,7 +6,7 @@ from fpdf import FPDF
 from sklearn.linear_model import LinearRegression
 
 # 1. CARGA DE DATOS
-df = pd.read_csv("master_data_grout.csv")
+df = pd.read_csv(r"c:\Users\Usuario\Documents\Blue Tech\master_data_grout.csv")
 
 # 2. GENERACIÓN DE GRÁFICAS PARA EL REPORTE
 # Gráfica 1: Distribución por Edad

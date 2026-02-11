@@ -28,28 +28,46 @@ all_data = []
 # 2. PROCESAMIENTO Y LIMPIEZA
 for file in files:
     try:
-        # Cargamos el archivo (CSV o Excel)
+        # Standardize input to a dictionary of {sheet_name: df}
         if file.lower().endswith(".csv"):
-            df = pd.read_csv(file, skiprows=5)
+            raw_dfs = {os.path.basename(file): pd.read_csv(file, skiprows=5)}
         else:
-            df = pd.read_excel(file, skiprows=5)
+            # sheet_name=None reads all sheets into a dictionary
+            raw_dfs = pd.read_excel(file, skiprows=5, sheet_name=None)
 
-        # Selección de columnas por índice (robusto ante cambios de nombre)
-        # ID, Estructura, Fecha Vaciado, Fecha Rotura, Edad, Resistencia
-        cols = [1, 2, 5, 6, 7, 13]
-        df_clean = df.iloc[:, cols].copy()
-        df_clean.columns = [
-            "ID_Probeta",
-            "Estructura",
-            "Fecha_Vaciado",
-            "Fecha_Rotura",
-            "Edad_Dias",
-            "Resistencia_MPa",
-        ]
+        for sheet_name, df in raw_dfs.items():
+            print(f"  Procesando hoja: {sheet_name}")
 
-        # Limpieza de metadatos de Excel
-        df_clean = df_clean.dropna(subset=["ID_Probeta", "Resistencia_MPa"])
-        all_data.append(df_clean)
+            # Check if dataframe has enough columns (we need at least index 13)
+            # cols = [1, 2, 5, 6, 7, 13] -> max index is 13, so need at least 14 columns
+            if df.shape[1] < 14:
+                print(
+                    f"    Saltando hoja '{sheet_name}' en {os.path.basename(file)}: No tiene suficientes columnas."
+                )
+                continue
+
+            # Selección de columnas por índice (robusto ante cambios de nombre)
+            # ID, Estructura, Fecha Vaciado, Fecha Rotura, Edad, Resistencia
+            cols = [1, 2, 5, 6, 7, 13]
+            df_clean = df.iloc[:, cols].copy()
+            df_clean.columns = [
+                "ID_Probeta",
+                "Estructura",
+                "Fecha_Vaciado",
+                "Fecha_Rotura",
+                "Edad_Dias",
+                "Resistencia_MPa",
+            ]
+
+            # Limpieza de metadatos de Excel
+            df_clean = df_clean.dropna(subset=["ID_Probeta", "Resistencia_MPa"])
+
+            # Add metadata about source file and sheet
+            df_clean["Origen_Archivo"] = os.path.basename(file)
+            df_clean["Origen_Hoja"] = sheet_name
+
+            all_data.append(df_clean)
+
     except Exception as e:
         print(f"Error procesando {os.path.basename(file)}: {e}")
 
@@ -70,18 +88,32 @@ stats_summary = (
 stats_summary["CV_%"] = (stats_summary["std"] / stats_summary["mean"]) * 100
 
 # 5. IMPRESIÓN DE TABLAS (Como las del informe)
-print("\n" + "=" * 80)
-print("INFORME CONSOLIDADO DE CONTROL DE CALIDAD - SIKAGROUT 9400 BR")
-print(f"Total de archivos procesados: {len(files)}")
-print(f"Total de probetas analizadas: {len(master_df)}")
-print("=" * 80)
-print("\nESTADÍSTICA DESCRIPTIVA POR EDAD DE ROTURA:")
+# 5. IMPRESIÓN DE TABLAS (Como las del informe)
 pd.options.display.float_format = "{:,.2f}".format
-print(stats_summary.to_string(index=False))
-print("\n" + "=" * 80)
+report_text = f"""
+{'=' * 80}
+INFORME CONSOLIDADO DE CONTROL DE CALIDAD - SIKAGROUT 9400 BR
+Total de archivos procesados: {len(files)}
+Total de probetas analizadas: {len(master_df)}
+{'=' * 80}
+
+ESTADÍSTICA DESCRIPTIVA POR EDAD DE ROTURA:
+{stats_summary.to_string(index=False)}
+
+{'=' * 80}
+"""
+
+print(report_text)
+
+# Guardar reporte en archivo de texto
+with open("Reporte_Control_Calidad_Grout.txt", "w", encoding="utf-8") as f:
+    f.write(report_text)
+print("Reporte guardado en 'Reporte_Control_Calidad_Grout.txt'")
 
 # 6. EXPORTAR Y GRAFICAR
-master_df.to_csv("master_data_grout.csv", index=False)
+master_df.to_csv(
+    r"c:\Users\Usuario\Documents\Blue Tech\master_data_grout.csv", index=False
+)
 
 plt.figure(figsize=(10, 6))
 sns.boxplot(
