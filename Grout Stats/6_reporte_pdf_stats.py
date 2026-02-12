@@ -152,5 +152,30 @@ if os.path.exists("reporte_grout_warnes_completo.png"):
     # Rotated image or fit to page? Assuming landscape or fit width
     pdf.image("reporte_grout_warnes_completo.png", x=10, w=190)
 
+# Sección 6: Reporte de Control de Calidad (Texto)
+pdf.add_page()
+pdf.set_font("Arial", "B", 12)
+pdf.cell(0, 10, "6. Detalle del Reporte de Control de Calidad", 1, 1)
+pdf.ln(5)
+
+report_text_path = (
+    r"c:\Users\Usuario\Documents\Blue Tech\Reporte_Control_Calidad_Grout.txt"
+)
+if os.path.exists(report_text_path):
+    try:
+        with open(report_text_path, "r", encoding="utf-8") as f:
+            text_content = f.read()
+
+        pdf.set_font(
+            "Courier", size=9
+        )  # Monospaced for tables, slightly smaller to fit width
+        pdf.multi_cell(0, 5, text_content)
+    except Exception as e:
+        pdf.set_font("Arial", size=10)
+        pdf.cell(0, 10, f"Error leyendo el archivo: {e}", 0, 1)
+else:
+    pdf.set_font("Arial", size=10)
+    pdf.cell(0, 10, f"[Falta archivo: {report_text_path}]", 0, 1)
+
 pdf.output("Reporte_Ejecutivo_Grout.pdf")
 print("Reporte generado con éxito: Reporte_Ejecutivo_Grout.pdf")
