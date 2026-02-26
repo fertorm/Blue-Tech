@@ -1,0 +1,24 @@
+Categoria,Metodo,Codigo,Descripcion,Resultado
+Transformación,upper(),texto_base.upper(),Todo mayúsculas,  HOLA MUNDO DESDE PYTHON  
+Transformación,lower(),texto_base.lower(),Todo minúsculas,  hola mundo desde python  
+Transformación,capitalize(),texto_base.strip().capitalize(),Primera letra mayúscula,Hola mundo desde python
+Transformación,title(),texto_base.title(),Primera letra de cada palabra mayúscula,  Hola Mundo Desde Python  
+Transformación,swapcase(),texto_base.swapcase(),Invierte mayúsculas/minúsculas,  hOLA mUNDO DESDE pYTHON  
+Limpieza,strip(),texto_base.strip(),Quita espacios inicio y fin,Hola Mundo desde Python
+Limpieza,lstrip(),texto_base.lstrip(),Quita espacios izquierda,Hola Mundo desde Python  
+Limpieza,rstrip(),texto_base.rstrip(),Quita espacios derecha,  Hola Mundo desde Python
+Búsqueda/Reemplazo,find(),texto_limpio.find('Mundo'),Índice donde empieza (-1 si no existe),5
+Búsqueda/Reemplazo,index(),texto_limpio.index('Mundo'),Similar a find (error si no existe),5
+Búsqueda/Reemplazo,replace(),"texto_limpio.replace('Python', 'Blue Tech')",Reemplaza texto,Hola Mundo desde Blue Tech
+Búsqueda/Reemplazo,count(),texto_limpio.count('o'),Cuenta ocurrencias de 'o',3
+Búsqueda/Reemplazo,startswith(),texto_limpio.startswith('Hola'),Empieza con...,True
+Búsqueda/Reemplazo,endswith(),texto_limpio.endswith('Python'),Termina con...,True
+División/Unión,split(),texto_limpio.split(),Divide string por espacios,"['Hola', 'Mundo', 'desde', 'Python']"
+División/Unión,split('o'),texto_limpio.split('o'),Divide usando 'o' como separador,"['H', 'la Mund', ' desde Pyth', 'n']"
+División/Unión,join(),'-'.join(lista),Une lista con conector,Hola-Mundo-desde-Python
+Verificación,isdigit(),'123'.isdigit(),Es número?,True
+Verificación,isalpha(),'Hola'.isalpha(),Solo letras?,True
+Verificación,isalnum(),'Hola123'.isalnum(),Letras o números?,True
+Verificación,islower(),'hola'.islower(),Todo minúsculas?,True
+Verificación,isupper(),'HOLA'.isupper(),Todo mayúsculas?,True
+Extra,len(),len(texto_limpio),Longitud del string,23

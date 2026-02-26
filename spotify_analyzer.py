@@ -40,21 +40,20 @@ import json
 import subprocess
 from pathlib import Path
 from datetime import timedelta
-import google.generativeai as genai
 import time
-from google.api_core import exceptions
+from groq import Groq
 from dotenv import load_dotenv
 
 # --- SETUP ---
 load_dotenv()
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-if not GOOGLE_API_KEY:
-    print("❌ ERROR: GOOGLE_API_KEY no encontrada en .env")
+if not GROQ_API_KEY:
+    print("❌ ERROR: GROQ_API_KEY no encontrada en .env")
     print("Por favor, configura tu API key en el archivo .env")
     sys.exit(1)
 
-genai.configure(api_key=GOOGLE_API_KEY)
+groq_client = Groq(api_key=GROQ_API_KEY)
 
 
 class PodcastApp:
@@ -63,9 +62,9 @@ class PodcastApp:
         self.download_path = Path(os.getenv("DOWNLOAD_PATH", "./downloads"))
         model_size = model_size or os.getenv("WHISPER_MODEL", "base")
 
-        print(f"--- Inicializando Motores (IA: Gemini | ASR: Whisper {model_size}) ---")
+        print(f"--- Inicializando Motores (IA: Groq/Llama | ASR: Whisper {model_size}) ---")
         self.transcription_model = whisper.load_model(model_size)
-        self.ai_model = genai.GenerativeModel("gemini-2.0-flash")
+        self.ai_model = groq_client
 
         self.download_path.mkdir(exist_ok=True)
 
@@ -136,20 +135,23 @@ class PodcastApp:
 
             while retry_count < max_retries:
                 try:
-                    res = self.ai_model.generate_content(prompt)
-                    detailed_insights.append(f"[{ts}] {res.text.strip()}")
+                    res = self.ai_model.chat.completions.create(
+                        model="llama-3.3-70b-versatile",
+                        messages=[{"role": "user", "content": prompt}],
+                    )
+                    detailed_insights.append(f"[{ts}] {res.choices[0].message.content.strip()}")
                     print(f" Procesado minuto {minute}")
-                    # Pequeña pausa para no saturar
-                    time.sleep(2)
+                    time.sleep(1)
                     break
-                except exceptions.ResourceExhausted:
-                    wait_time = 30 * (retry_count + 1)  # Exponential-ish backoff
-                    print(f" ⚠️ Rate Limit hit. Esperando {wait_time} segundos...")
-                    time.sleep(wait_time)
-                    retry_count += 1
                 except Exception as e:
-                    print(f" ❌ Error inesperado en minuto {minute}: {e}")
-                    break
+                    if "rate_limit" in str(e).lower() or "429" in str(e):
+                        wait_time = 30 * (retry_count + 1)
+                        print(f" ⚠️ Rate Limit hit. Esperando {wait_time} segundos...")
+                        time.sleep(wait_time)
+                        retry_count += 1
+                    else:
+                        print(f" ❌ Error inesperado en minuto {minute}: {e}")
+                        break
 
         return detailed_insights
 
@@ -157,7 +159,11 @@ class PodcastApp:
         print(f"Step 4: Generando reporte ejecutivo final...")
         full_text = "\n".join(insights)
         prompt = f"Basado en estos insights por minuto, genera un reporte ejecutivo (Tesis, 3 Pilares y Conclusión): \n{full_text}"
-        return self.ai_model.generate_content(prompt).text
+        res = self.ai_model.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[{"role": "user", "content": prompt}],
+        )
+        return res.choices[0].message.content
 
 
 # --- EJECUCIÓN ---

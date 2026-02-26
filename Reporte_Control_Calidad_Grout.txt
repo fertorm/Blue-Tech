@@ -1,28 +1,146 @@
+
 ====================================================================================================
- REPORTE DE CONTROL ESTATÍSTICO: SIKAGROUT 9400 BR
+  REPORTE DE CONTROL ESTADISTICO - SIKAGROUT 9400 BR | Blue Tech
 ====================================================================================================
 
-PROBETAS ANALIZADAS: 121
-CUMPLIMIENTO DE RESISTENCIA MEDIA Y DISPERSIÓN:
+Probetas analizadas: 138
+Fecha de generacion: 2026-02-26 11:06
+
+
+====================================================================================================
+  1. ESTADISTICA DESCRIPTIVA POR EDAD DE ROTURA
+====================================================================================================
+
+  Edad     N      Media       Desv        Min        Max      CV%       Meta     Estado
 ----------------------------------------------------------------------------------------------------
-Edad   N°    Media      Desv       Mín        Máx        CV%      Meta       Estado
-1      33    76.66      8.80       53.72      89.48      11.48    45.0       PASA
-3      27    93.87      9.25       76.68      111.68     9.85     -          ---
-4      7     98.57      14.28      86.64      118.48     14.49    -          ---
-7      26    104.08     7.94       90.32      117.96     7.63     90.0       PASA
-8      4     101.56     5.71       96.00      109.12     5.62     -          ---
-9      5     116.47     5.17       110.28     121.48     4.44     -          ---
-10     5     105.66     9.08       90.76      114.56     8.59     -          ---
-28     14    124.12     8.78       106.00     135.84     7.08     110.0      PASA
+     1    33      76.66       8.80      53.72      89.48    11.48         45       PASA
+     3    27      93.87       9.25      76.68     111.68     9.85          -        ---
+     4     7      98.57      14.28      86.64     118.48    14.49          -        ---
+     7    26     104.08       7.94      90.32     117.96     7.63         90       PASA
+     8     4     101.56       5.71      96.00     109.12     5.62          -        ---
+     9     8     117.58       4.36     110.28     121.52     3.71          -        ---
+    10     5     105.66       9.08      90.76     114.56     8.59          -        ---
+    28    28     126.02       7.40     106.00     138.84     5.88        110       PASA
 
 ====================================================================================================
- ANÁLISIS DE INFERENCIA ESTADÍSTICA (28 Días)
+  2. INFERENCIA ESTADISTICA (28 DIAS)
 ====================================================================================================
-1. Prueba T (vs 110.0 MPa): p-value = 4.3374e-05
-   Interpretación: Éxito Estadístico
 
-2. Resistencia Característica (f'ck) del Proyecto:
-   Calculada (Percentil 5): 109.67 MPa
-   Requerida (Ficha Técnica): 108.0 MPa
-   RESULTADO FINAL: APROBADO
-============================================================
+  Prueba T vs 110.0 MPa:  t = +11.4508,  p = 7.1936e-12
+  Resultado T-test: SIGNIFICATIVO (p < 0.05)
+
+  Resistencia Caracteristica f'ck calculada (Percentil 5): 113.84 MPa
+  Resistencia Caracteristica f'ck requerida (Ficha Tecnica): 108.00 MPa
+  RESULTADO FINAL: APROBADO
+
+
+====================================================================================================
+  3. ANALISIS ANOVA â€” Factor: Edad_Dias
+====================================================================================================
+
+                    sum_sq     df         F        PR(>F)
+C(Edad_Dias)  41019.684171    7.0  79.82914  5.576211e-44
+Residual       9542.807760  130.0       NaN           NaN
+
+  Shapiro-Wilk (normalidad residuos):  p = 0.9701 -> Normal
+  Levene (homogeneidad de varianzas):  p = 0.1790 -> Homogeneo
+
+  Post-hoc Tukey HSD (alfa=0.05):
+ Multiple Comparison of Means - Tukey HSD, FWER=0.05  
+======================================================
+group1 group2 meandiff p-adj   lower    upper   reject
+------------------------------------------------------
+   1.0   10.0   28.999    0.0  16.3314  41.6667   True
+   1.0   28.0  49.3659    0.0  42.5836  56.1481   True
+   1.0    3.0  17.2097    0.0  10.3598  24.0596   True
+   1.0    4.0  21.9087    0.0  10.9245   32.893   True
+   1.0    7.0   27.423    0.0  20.5011   34.345   True
+   1.0    8.0   24.903    0.0  10.9278  38.8783   True
+   1.0    9.0   40.928    0.0  30.5256  51.3305   True
+  10.0   28.0  20.3669 0.0001   7.5513  33.1824   True
+  10.0    3.0 -11.7893 0.0975 -24.6408   1.0622  False
+  10.0    4.0  -7.0903 0.8496 -22.5465   8.3659  False
+  10.0    7.0   -1.576 0.9999 -14.4661  11.3141  False
+  10.0    8.0   -4.096 0.9965 -21.8033  13.6113  False
+  10.0    9.0   11.929 0.2303  -3.1193  26.9773  False
+  28.0    3.0 -32.1562    0.0  -39.276 -25.0364   True
+  28.0    4.0 -27.4571    0.0 -38.6117 -16.3026   True
+  28.0    7.0 -21.9429    0.0  -29.132 -14.7537   True
+  28.0    8.0 -24.4629    0.0 -38.5724 -10.3534   True
+  28.0    9.0  -8.4379 0.2238   -19.02   2.1443  False
+   3.0    4.0    4.699 0.8999  -6.4967  15.8948  False
+   3.0    7.0  10.2133 0.0007   2.9604  17.4663   True
+   3.0    8.0   7.6933 0.7026  -6.4488  21.8355  False
+   3.0    9.0  23.7183    0.0  13.0928  34.3439   True
+   4.0    7.0   5.5143    0.8  -5.7257  16.7543  False
+   4.0    8.0   2.9943 0.9993 -13.5506  19.5391  False
+   4.0    9.0  19.0193 0.0009   5.3578  32.6807   True
+   7.0    8.0    -2.52 0.9994 -16.6972  11.6572  False
+   7.0    9.0   13.505 0.0038   2.8328  24.1772   True
+   8.0    9.0   16.025 0.0538  -0.1395  32.1895  False
+------------------------------------------------------
+
+
+====================================================================================================
+  4. ANALISIS ANOVA â€” Factor: Estructura
+====================================================================================================
+
+                     sum_sq     df        F        PR(>F)
+C(Estructura)  18837.564418    8.0  9.57467  2.404868e-10
+Residual       31724.927512  129.0      NaN           NaN
+
+  Shapiro-Wilk (normalidad residuos):  p = 0.0622 -> Normal
+  Levene (homogeneidad de varianzas):  p = 0.0421 -> No homogeneo (ADVERTENCIA)
+
+  Post-hoc Tukey HSD (alfa=0.05):
+            Multiple Comparison of Means - Tukey HSD, FWER=0.05             
+============================================================================
+      group1            group2      meandiff p-adj   lower    upper   reject
+----------------------------------------------------------------------------
+Aerogenerador #05 Aerogenerador #07  -0.0023    1.0 -16.7294  16.7249  False
+Aerogenerador #05 Aerogenerador #08     -1.6    1.0 -18.6721  15.4721  False
+Aerogenerador #05 Aerogenerador #09 -15.5054 0.2508 -35.2185   4.2077  False
+Aerogenerador #05 Aerogenerador #10  -20.781 0.0044 -37.5081  -4.0538   True
+Aerogenerador #05 Aerogenerador #11  -22.061 0.0018 -38.7881  -5.3338   True
+Aerogenerador #05 Aerogenerador #12 -42.0263    0.0  -66.648 -17.4046   True
+Aerogenerador #05 Aerogenerador #13   1.3678    1.0 -14.2986  17.0342  False
+Aerogenerador #05 Aerogenerador #14   2.6169 0.9997 -12.0293  17.2631  False
+Aerogenerador #07 Aerogenerador #08  -1.5977    1.0 -19.9849  16.7895  False
+Aerogenerador #07 Aerogenerador #09 -15.5031 0.3238 -36.3655   5.3593  False
+Aerogenerador #07 Aerogenerador #10 -20.7787 0.0119 -38.8461  -2.7113   True
+Aerogenerador #07 Aerogenerador #11 -22.0587 0.0056 -40.1261  -3.9913   True
+Aerogenerador #07 Aerogenerador #12  -42.024    0.0 -67.5751 -16.4729   True
+Aerogenerador #07 Aerogenerador #13   1.3701    1.0 -15.7199  18.4601  False
+Aerogenerador #07 Aerogenerador #14   2.6192 0.9999 -13.5408  18.7792  False
+Aerogenerador #08 Aerogenerador #09 -13.9054 0.4946 -35.0454   7.2346  False
+Aerogenerador #08 Aerogenerador #10  -19.181 0.0338 -37.5681  -0.7938   True
+Aerogenerador #08 Aerogenerador #11  -20.461 0.0173 -38.8481  -2.0738   True
+Aerogenerador #08 Aerogenerador #12 -40.4263 0.0001 -66.2046  -14.648   True
+Aerogenerador #08 Aerogenerador #13   2.9678 0.9998   -14.46  20.3956  False
+Aerogenerador #08 Aerogenerador #14   4.2169 0.9965 -12.2998  20.7337  False
+Aerogenerador #09 Aerogenerador #10  -5.2756 0.9968  -26.138  15.5869  False
+Aerogenerador #09 Aerogenerador #11  -6.5556 0.9861  -27.418  14.3069  False
+Aerogenerador #09 Aerogenerador #12 -26.5209   0.07 -54.1193   1.0775  False
+Aerogenerador #09 Aerogenerador #13  16.8732 0.1734  -3.1488  36.8952  False
+Aerogenerador #09 Aerogenerador #14  18.1223 0.0817  -1.1119  37.3565  False
+Aerogenerador #10 Aerogenerador #11    -1.28    1.0 -19.3474  16.7874  False
+Aerogenerador #10 Aerogenerador #12 -21.2453 0.1873 -46.7965   4.3058  False
+Aerogenerador #10 Aerogenerador #13  22.1488 0.0024   5.0587  39.2388   True
+Aerogenerador #10 Aerogenerador #14  23.3979 0.0004   7.2379  39.5578   True
+Aerogenerador #11 Aerogenerador #12 -19.9653 0.2589 -45.5165   5.5858  False
+Aerogenerador #11 Aerogenerador #13  23.4288  0.001   6.3387  40.5188   True
+Aerogenerador #11 Aerogenerador #14  24.6779 0.0001   8.5179  40.8378   True
+Aerogenerador #12 Aerogenerador #13  43.3941    0.0  18.5244  68.2638   True
+Aerogenerador #12 Aerogenerador #14  44.6432    0.0  20.4033  68.8831   True
+Aerogenerador #13 Aerogenerador #14   1.2491    1.0 -13.8102  16.3084  False
+----------------------------------------------------------------------------
+
+
+====================================================================================================
+  5. MODELO PREDICTIVO LOGARITMICO
+====================================================================================================
+
+  Ecuacion: Resistencia = 76.92 + 14.73 x ln(Edad)
+  R2 = 0.7931  |  n = 138 probetas
+  Uso: MPa_28d = MPa_actual + 14.7251 x (ln(28) - ln(edad_actual))
+  Meta a 28d: 110.0 MPa (Ficha Tecnica SikaGrout 9400 BR)

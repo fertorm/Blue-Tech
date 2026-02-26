@@ -1,4 +1,4 @@
-ID_Probeta,Estructura,Fecha_Vaciado,Fecha_Rotura,Edad_Dias,Resistencia_MPa,Origen_Archivo,Origen_Hoja
+﻿ID_Probeta,Estructura,Fecha_Vaciado,Fecha_Rotura,Edad_Dias,Resistencia_MPa,Origen_Archivo,Origen_Hoja
 TE-013,Aerogenerador #14,2025-12-08,2025-12-09 00:00:00,1.0,83.12,CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx,INF. ROTURA
 TE-014,Aerogenerador #14,2025-12-08,2025-12-09 00:00:00,1.0,83.4,CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx,INF. ROTURA
 TE-015,Aerogenerador #14,2025-12-08,2025-12-09 00:00:00,1.0,87.88,CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx,INF. ROTURA

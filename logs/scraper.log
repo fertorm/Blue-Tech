@@ -1,0 +1,53 @@
+2026-01-27 14:07:36,641 - __main__ - INFO - ============================================================
+2026-01-27 14:07:36,676 - __main__ - INFO - ============================================================
+2026-01-27 14:07:36,676 - __main__ - INFO - Initialized 2 data source(s)
+2026-01-27 14:07:36,687 - __main__ - INFO - Validation complete: 16 valid records out of 16
+2026-01-27 14:07:40,172 - __main__ - INFO - Validation complete: 102 valid records out of 102
+2026-01-27 14:07:40,175 - __main__ - INFO - 
+============================================================
+2026-01-27 14:07:40,178 - __main__ - INFO - ============================================================
+2026-01-27 14:07:40,185 - __main__ - INFO - Created DataFrame with 118 records
+2026-01-27 14:07:40,209 - __main__ - INFO - 
+============================================================
+2026-01-27 14:07:40,211 - __main__ - INFO - ============================================================
+2026-01-27 14:07:40,212 - __main__ - INFO - Total records: 118
+2026-01-27 14:07:40,212 - __main__ - INFO - Unique materials: 8
+2026-01-27 14:07:40,213 - __main__ - INFO - Materials: Acero, Apartamento (m2 Centro), Arena, Cemento, Cimento, Concreto, Ladrillo, Madera
+2026-01-27 14:07:40,214 - __main__ - INFO - Countries covered: 105
+2026-01-27 14:07:40,214 - __main__ - INFO - Countries: Albania, Algeria, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahrain, Bangladesh, Belarus, Belgium, Bolivia, Bosnia And Herzegovina, Brasil, Brazil, Bulgaria, Canada, Chile, China, Colombia, Costa Rica, Croatia, Cuba, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Egypt, Estonia, Finland, France, Georgia, Germany, Greece, Hong Kong (China), Hungary, India, Indonesia, Iran, Iraq, Ireland, Israel, Italy, Japan, Jordan, Kazakhstan, Kenya, Kosovo (Disputed Territory), Kuwait, Latvia, Lebanon, Libya, Lithuania, Luxembourg, Malaysia, Malta, Mauritius, Mexico, Moldova, Montenegro, Morocco, Nepal, Netherlands, New Zealand, Nigeria, North Macedonia, Norway, Oman, Pakistan, Panama, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Rusia, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sweden, Switzerland, Taiwan, Thailand, Tunisia, Turkey, USA, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Venezuela, Vietnam, Zimbabwe
+2026-01-27 14:07:40,214 - __main__ - INFO - Data sources: 13
+2026-01-27 14:07:40,215 - __main__ - INFO - Sources: Estimado Local, Estimado (Mercado Local), Estimativa Mercado, Shanghai Futures, Market Estimate, Estimate, SteelBenchmarker, Numbeo (Global), Reportes Locales, Cadecocruz/Mercado, Varejo, Promedio Local, TradingEconomics Approx
+2026-01-27 14:07:40,215 - __main__ - INFO - Extraction date: 2026-01-27 14:07:40
+2026-01-27 14:07:40,215 - __main__ - INFO - 
+Records by source:
+2026-01-27 14:07:40,217 - __main__ - INFO -   - Numbeo (Global): 102 records
+2026-01-27 14:07:40,218 - __main__ - INFO -   - Market Estimate: 3 records
+2026-01-27 14:07:40,218 - __main__ - INFO -   - Estimado Local: 2 records
+2026-01-27 14:07:40,218 - __main__ - INFO -   - Estimate: 2 records
+2026-01-27 14:07:40,219 - __main__ - INFO -   - Estimado (Mercado Local): 1 records
+2026-01-27 14:07:40,219 - __main__ - INFO -   - Shanghai Futures: 1 records
+2026-01-27 14:07:40,219 - __main__ - INFO -   - Estimativa Mercado: 1 records
+2026-01-27 14:07:40,219 - __main__ - INFO -   - SteelBenchmarker: 1 records
+2026-01-27 14:07:40,220 - __main__ - INFO -   - Reportes Locales: 1 records
+2026-01-27 14:07:40,220 - __main__ - INFO -   - Cadecocruz/Mercado: 1 records
+2026-01-27 14:07:40,220 - __main__ - INFO -   - Varejo: 1 records
+2026-01-27 14:07:40,220 - __main__ - INFO -   - Promedio Local: 1 records
+2026-01-27 14:07:40,221 - __main__ - INFO -   - TradingEconomics Approx: 1 records
+2026-01-27 14:07:40,221 - __main__ - INFO - ============================================================
+
+2026-01-27 14:07:40,239 - __main__ - INFO - 
+============================================================
+2026-01-27 14:07:40,243 - __main__ - INFO - ============================================================
+2026-01-27 14:07:40,243 - __main__ - INFO - Duration: 3.56 seconds
+2026-01-27 14:07:40,243 - __main__ - INFO - Total sources attempted: 2
+2026-01-27 14:07:40,244 - __main__ - INFO - Successful sources: 2
+2026-01-27 14:07:40,244 - __main__ - INFO - Failed sources: 0
+2026-01-27 14:07:40,244 - __main__ - INFO - Total valid records collected: 118
+2026-01-27 14:07:40,244 - __main__ - INFO - Final records after deduplication: 118
+2026-01-27 14:07:40,244 - __main__ - INFO - 
+Source breakdown:
+2026-01-27 14:07:40,248 - __main__ - INFO -      Raw: 16, Formatted: 16, Validated: 16
+2026-01-27 14:07:40,251 - __main__ - INFO -      Raw: 49466, Formatted: 102, Validated: 102
+2026-01-27 14:07:40,253 - __main__ - INFO - ============================================================
+2026-01-27 14:07:40,257 - __main__ - INFO - ============================================================
+

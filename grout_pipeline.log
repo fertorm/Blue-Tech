@@ -1,0 +1,144 @@
+10:54:41 [INFO] =================================================================
+10:54:41 [INFO] BLUE TECH — PIPELINE GROUT — INICIO
+10:54:41 [INFO] Archivos: 9  |  Salida: C:\users\usuario\documents\blue tech
+10:54:41 [INFO] =================================================================
+10:54:41 [INFO] [1/9] Cargando y consolidando datos...
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA → 16 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA (2) → 9 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA → 16 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA (2) → 3 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA → 16 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA (2) → 5 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 004.xlsx / INF. ROTURA → 15 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 005.xlsx / INF. ROTURA → 14 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 006.xlsx / INF. ROTURA → 9 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 007.xlsx / INF. ROTURA → 15 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 008.xlsx / INF. ROTURA → 15 probetas.
+10:54:42 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 009.xlsx / INF. ROTURA → 5 probetas.
+10:54:42 [INFO] Consolidación completa: 138 probetas válidas de 9 archivo(s).
+10:54:42 [INFO] Master CSV guardado: master_data_grout.csv (138 registros).
+10:54:42 [INFO] Total de probetas: 138
+10:54:42 [INFO] [2/9] Estadistica descriptiva e inferencia estadistica...
+10:54:42 [INFO] [3/9] ANOVA por Edad_Dias...
+10:54:42 [INFO] ANOVA [Edad_Dias]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+10:54:42 [INFO] [4/9] ANOVA por Estructura...
+10:54:43 [INFO] ANOVA [Estructura]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+10:54:43 [INFO] [5/9] Entrenando modelo predictivo logaritmico...
+10:54:43 [INFO] Modelo logaritmico entrenado: R2=0.7931 | Resistencia = 76.92 + 14.73 x ln(Edad)
+10:54:43 [INFO] [6/9] Persistiendo en base de datos SQLite...
+10:54:43 [INFO] BD actualizada: BlueTech_Grout.db → 138 registros en tabla 'Roturas'.
+10:54:43 [INFO] [7/9] Generando visualizaciones...
+10:54:43 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:43 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:43 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:43 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:43 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:54:44 [INFO] Graficos generados en: C:\users\usuario\documents\blue tech\Grout Stats
+10:54:44 [INFO] [8/9] Generando reporte de texto...
+10:54:44 [INFO] Reporte de texto guardado: Reporte_Control_Calidad_Grout.txt
+10:54:44 [INFO] [9/9] Generando reporte PDF...
+10:54:52 [INFO] Reporte PDF generado: Reporte_Ejecutivo_Grout.pdf
+10:54:52 [INFO] =================================================================
+10:54:52 [INFO] BLUE TECH — PIPELINE GROUT — COMPLETADO
+10:54:52 [INFO] =================================================================
+10:55:50 [INFO] =================================================================
+10:55:50 [INFO] BLUE TECH — PIPELINE GROUT — INICIO
+10:55:50 [INFO] Archivos: 9  |  Salida: C:\users\usuario\documents\blue tech
+10:55:50 [INFO] =================================================================
+10:55:50 [INFO] [1/9] Cargando y consolidando datos...
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA → 16 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA (2) → 9 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA → 16 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA (2) → 3 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA → 16 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA (2) → 5 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 004.xlsx / INF. ROTURA → 15 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 005.xlsx / INF. ROTURA → 14 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 006.xlsx / INF. ROTURA → 9 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 007.xlsx / INF. ROTURA → 15 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 008.xlsx / INF. ROTURA → 15 probetas.
+10:55:51 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 009.xlsx / INF. ROTURA → 5 probetas.
+10:55:51 [INFO] Consolidación completa: 138 probetas válidas de 9 archivo(s).
+10:55:51 [INFO] Master CSV guardado: master_data_grout.csv (138 registros).
+10:55:51 [INFO] Total de probetas: 138
+10:55:51 [INFO] [2/9] Estadistica descriptiva e inferencia estadistica...
+10:55:51 [INFO] [3/9] ANOVA por Edad_Dias...
+10:55:51 [INFO] ANOVA [Edad_Dias]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+10:55:51 [INFO] [4/9] ANOVA por Estructura...
+10:55:52 [INFO] ANOVA [Estructura]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+10:55:52 [INFO] [5/9] Entrenando modelo predictivo logaritmico...
+10:55:52 [INFO] Modelo logaritmico entrenado: R2=0.7931 | Resistencia = 76.92 + 14.73 x ln(Edad)
+10:55:52 [INFO] [6/9] Persistiendo en base de datos SQLite...
+10:55:52 [INFO] BD actualizada: BlueTech_Grout.db → 138 registros en tabla 'Roturas'.
+10:55:52 [INFO] [7/9] Generando visualizaciones...
+10:55:52 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:52 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:52 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:52 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:52 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+10:55:53 [INFO] Graficos generados en: C:\users\usuario\documents\blue tech\Grout Stats
+10:55:53 [INFO] [8/9] Generando reporte de texto...
+10:55:53 [INFO] Reporte de texto guardado: Reporte_Control_Calidad_Grout.txt
+10:55:53 [INFO] [9/9] Generando reporte PDF...
+10:56:00 [INFO] Reporte PDF generado: Reporte_Ejecutivo_Grout.pdf
+10:56:00 [INFO] =================================================================
+10:56:00 [INFO] BLUE TECH — PIPELINE GROUT — COMPLETADO
+10:56:00 [INFO] =================================================================
+11:06:46 [INFO] =================================================================
+11:06:46 [INFO] BLUE TECH — PIPELINE GROUT — INICIO
+11:06:46 [INFO] Archivos: 9  |  Salida: C:\users\usuario\documents\blue tech
+11:06:46 [INFO] =================================================================
+11:06:46 [INFO] [1/9] Cargando y consolidando datos...
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA → 16 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 001.xlsx / INF. ROTURA (2) → 9 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA → 16 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 002.xlsx / INF. ROTURA (2) → 3 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA → 16 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 003.xlsx / INF. ROTURA (2) → 5 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 004.xlsx / INF. ROTURA → 15 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 005.xlsx / INF. ROTURA → 14 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 006.xlsx / INF. ROTURA → 9 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 007.xlsx / INF. ROTURA → 15 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 008.xlsx / INF. ROTURA → 15 probetas.
+11:06:47 [INFO]   CI-PRO-001_REG-001 ROTURA DE GROUT 009.xlsx / INF. ROTURA → 5 probetas.
+11:06:47 [INFO] Consolidación completa: 138 probetas válidas de 9 archivo(s).
+11:06:47 [INFO] Master CSV guardado: master_data_grout.csv (138 registros).
+11:06:47 [INFO] Total de probetas: 138
+11:06:47 [INFO] [2/9] Estadistica descriptiva e inferencia estadistica...
+11:06:47 [INFO] [3/9] ANOVA por Edad_Dias...
+11:06:48 [INFO] ANOVA [Edad_Dias]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+11:06:48 [INFO] [4/9] ANOVA por Estructura...
+11:06:49 [INFO] ANOVA [Estructura]: SIGNIFICATIVO → Post-hoc Tukey aplicado.
+11:06:49 [INFO] [5/9] Entrenando modelo predictivo logaritmico...
+11:06:49 [INFO] Modelo logaritmico entrenado: R2=0.7931 | Resistencia = 76.92 + 14.73 x ln(Edad)
+11:06:49 [INFO] [6/9] Persistiendo en base de datos SQLite...
+11:06:49 [INFO] BD actualizada: BlueTech_Grout.db → 138 registros en tabla 'Roturas'.
+11:06:49 [INFO] [7/9] Generando visualizaciones...
+11:06:49 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:49 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:49 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:49 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:49 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:50 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:50 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:50 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:50 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:50 [INFO] Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+11:06:51 [INFO] Graficos generados en: C:\users\usuario\documents\blue tech\Grout Stats
+11:06:51 [INFO] [8/9] Generando reporte de texto...
+11:06:51 [INFO] Reporte de texto guardado: Reporte_Control_Calidad_Grout.txt
+11:06:51 [INFO] [9/9] Generando reporte PDF...
+11:07:03 [INFO] Reporte PDF generado: Reporte_Ejecutivo_Grout.pdf
+11:07:03 [INFO] =================================================================
+11:07:03 [INFO] BLUE TECH — PIPELINE GROUT — COMPLETADO
+11:07:03 [INFO] =================================================================
